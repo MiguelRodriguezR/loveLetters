@@ -1,0 +1,23 @@
+<div class="card-container" *ngIf="!_letterService.isLoading">
+  <div class="card white" [ngClass]="[actualFont,actualBorder]">
+    <div class="top-letter continue">
+      <app-animated-text #t1 [text]=
+        "_letterService.letter.greetings + ' ' + _letterService.letter.flattery">
+      </app-animated-text>
+    </div>
+    <div class="body continue">
+      <app-animated-text #t2 [eventStarter]="t1.endAnimation" [text]="
+      _letterService.letter.subject + ' ' + _letterService.letter.formatedBody">
+      </app-animated-text>
+    </div>
+    <div class="end continue">
+      <app-animated-text #t3 [eventStarter]="t2.endAnimation"
+                         [text]="_letterService.letter.farewell"></app-animated-text>
+      <app-animated-text #t4 class="big" [eventStarter]="t3.endAnimation" [text]="'Att: Miguel'"></app-animated-text>
+    </div>
+    <div class="postData" *ngIf="postdataOk">
+      <app-animated-text [eventStarter]="t4.endAnimation" [text]="'PostData: '+_letterService.letter.postdata"></app-animated-text>
+    </div>
+  </div>
+</div>
+

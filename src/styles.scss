@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Baloo+Paaji+2|Caveat|Comic+Neue|Dosis|Inconsolata|Indie+Flower|Josefin+Sans|Libre+Baskerville|Lobster|Manrope|Oswald|Pacifico|Raleway|Roboto|Satisfy|Shadows+Into+Light&display=swap');
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+.Shadows {
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+.Indie {
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.Pacifico {
+  font-family: 'Pacifico', cursive;
+
+}
+
+.Lobster {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+
+}
+
+.Anton {
+  font-family: 'Anton', sans-serif;
+
+}
+
+.Josefin {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Libre {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.Dosis {
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.Inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+.Raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.Baloo {
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.Comic {
+  font-family: 'Comic Neue', cursive;
+}
+
+.Oswald {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.Amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.Caveat {
+  font-family: 'Caveat', cursive;
+
+}
+
+.Satisfy {
+  font-family: 'Satisfy', cursive;
+
+}
+
+.gold{
+  border: solid 1em goldenrod;
+  border-image: conic-gradient(#f90, #95a) 1;
+}
+
+.paw {
+  border: 35px solid transparent;
+  border-image: url(/assets/borders/pawprints.jpg) 45 round;
+}
+
+.hearts {
+  border: 20px solid pink;
+  border-image-source: url(/assets/borders/hearts.png);
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+}
+
+.blu{
+  border:10px solid black;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

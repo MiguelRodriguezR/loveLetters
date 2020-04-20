@@ -1,0 +1,5 @@
+<div class="big-container">
+  <div class="cargando" *ngIf="_letterService.isLoading">Generando Carta...</div>
+  <app-letter></app-letter>
+  <button *ngIf="!_letterService.isLoading" (click)="createLetter()">Crear otra carta</button>
+</div>
